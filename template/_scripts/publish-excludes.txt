@@ -1,0 +1,15 @@
+# Paths that publish-version.sh never copies into main/ (rsync exclude patterns, one per line).
+# Build artifacts are regenerable, and main/ is rebuilt fresh before anything is installed
+# or deployed from it. Add a line for anything else your stack generates.
+node_modules
+dist
+build
+.next
+target
+.venv
+__pycache__
+*.pyc
+.git
+.DS_Store
+browser-profile
+browser-tmp

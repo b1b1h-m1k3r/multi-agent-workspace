@@ -1,0 +1,7 @@
+# Collections: other folders that use the same main/ + <Agent>/vN structure as Projects/.
+# One line per collection: <prefix>=<folder relative to the workspace root>
+# Then address a project in it as <prefix>:<name> in every script, for example:
+#   _scripts/publish-version.sh posts:launch-teaser Codex v1
+#
+# Example (remove the # to enable):
+# posts=Marketing/Social Posts
